@@ -86,11 +86,14 @@ const titles = [
 
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
-
+const name = titles.filter(titles => titles.name === titles );
+console.log(titles);
 //Sort books from oldest to most recent
-
+books.sort();
+console.log(books);
 //sort books alphabetically
-
+titles.sort();
+console.log(titles);
 //Find who wrote War and Peace
 
 //how many books were written before 1900?
